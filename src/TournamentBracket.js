@@ -46,7 +46,6 @@ const TournamentBracket = () => {
 
   return (
     <div className="tournament-bracket">
-      <h3>Tournament Bracket Generator</h3>
       <div className="input-container">
         <label>Number of Players:</label>
         <input type="number" value={numPlayers} onChange={handleNumPlayersChange} />
