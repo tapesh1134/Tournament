@@ -1,0 +1,80 @@
+.tournament-bracket {
+  text-align: center;
+  padding: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.bracket {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.round {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.match {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.connector {
+  width: 2px;
+  background-color: #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 50%;
+  left: 100%;
+  transform: translate(-50%, 0);
+}
+
+.participant1,
+.participant2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  width: 160px;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
